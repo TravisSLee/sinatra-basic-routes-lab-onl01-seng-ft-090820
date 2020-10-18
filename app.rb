@@ -7,5 +7,5 @@ class App < Sinatra::Base
   end
   
   get '/name' do
-    
+    @name = 
 end
