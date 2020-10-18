@@ -7,5 +7,6 @@ class App < Sinatra::Base
   end
   
   get '/name' do
-    @name = 
+    @name = Name.all 
+  end
 end
