@@ -7,6 +7,6 @@ class App < Sinatra::Base
   end
   
   get '/name' do
-    @name = Name.all 
+    "My name is "
   end
 end
